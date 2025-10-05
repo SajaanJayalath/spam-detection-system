@@ -13,10 +13,8 @@ venv/
 .ipynb_checkpoints/
 
 # Data artifacts
-data/raw/**/*
-data/processed/**/*
-models/**/*
 
 # OS
 .DS_Store
 Thumbs.db
+models/**/*
