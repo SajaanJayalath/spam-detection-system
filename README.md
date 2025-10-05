@@ -20,8 +20,8 @@ A coursework-ready machine learning toolkit for building, evaluating, and report
 ### Environment Setup
 ```bash
 # 1. Clone your fork
-git clone <repo-url>
-cd Spam-and-Malware-Detection
+git clone https://github.com/SajanJayalath/spam-malware-detection
+cd spam-malware-detection
 
 # 2. Create an isolated environment
 python -m venv .venv
