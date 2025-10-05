@@ -1,0 +1,7 @@
+domain,source_file,dataset,model,accuracy,precision,recall,f1,roc_auc,rmse,mae,r2,type,silhouette,adjusted_rand_index,mapped_accuracy
+malware,malware_ds2_hist_gbdt.json,malware_ds2,hist_gradient_boosting,0.9259170462718772,0.9847264648708692,0.9331578947368421,0.9582488852857722,0.9620126968364305,,,,classification,,,
+malware,malware_ds1_random_forest.json,malware_ds1,random_forest,1.0,1.0,1.0,1.0,1.0,,,,classification,,,
+malware,malware_ds2_kmeans.json,malware_ds2,kmeans,,,,,,,,,clustering,0.9867828257865231,0.0026523841389665304,0.9110834012757182
+spam,multinomial_nb_metrics.json,multinomial_nb,multinomial_nb,0.9799210006583279,0.9769585253456221,0.9325513196480938,0.95423855963991,0.9968788741791097,,,,classification,,,
+spam,kmeans_clustering_metrics.json,kmeans,kmeans,,,,,,,,,clustering,0.010041968553100212,-0.020936232683367802,0.7755464840663682
+spam,elasticnet_regression_metrics.json,elasticnet_regressor,elasticnet_regressor,0.9549045424621462,0.9642248722316865,0.8299120234604106,0.8920409771473601,,0.21718202309012835,0.15593514813895487,0.7290659263167367,regression,,,
