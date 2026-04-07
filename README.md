@@ -488,29 +488,6 @@ All components are production-ready with:
 - Clean architecture and separation of concerns
 - Comprehensive README and documentation
 
----
-
-## 📝 Notes
-
-- This is a unified version combining Part 1 (ML) and Part 2 (Web App)
-- All paths are relative to the `part3/` root directory
-- The project can run independently from Part 1 and Part 2
-- Models from Part 1 are pre-bundled in `models/spam/`
-
----
-
-## ✅ Verification Checklist
-
-After setup:
-- [ ] Backend starts with `uvicorn main:app --reload`
-- [ ] API health check returns 200 at http://localhost:8000/health
-- [ ] Model loads successfully (check logs)
-- [ ] Frontend installs with `npm install` and starts with `npm start`
-- [ ] Can make predictions via API or UI
-- [ ] Predictions are logged to history
-- [ ] No CORS errors in browser console
-- [ ] Dark mode toggle works
-- [ ] API documentation displays at /docs
 
 ---
 
