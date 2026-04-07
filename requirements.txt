@@ -1,0 +1,17 @@
+# Backend Requirements (part2)
+fastapi
+uvicorn
+scikit-learn==1.7.1
+joblib
+numpy
+pandas
+pydantic
+email-validator
+python-dotenv
+python-multipart
+
+# ML/Data Science Requirements (part1)
+matplotlib
+seaborn
+nltk
+wordcloud
